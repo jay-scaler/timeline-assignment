@@ -36,14 +36,14 @@ body {
     margin-left: -3px;
 }
 
-.container {
+.heading {
     padding: 10px 40px;
     position: relative;
     background-color: inherit;
     width: 50%;
 }
 
-.container::after {
+.heading::after {
     content: "";
     position: absolute;
     width: 25px;
@@ -110,13 +110,13 @@ body {
         left: 31px;
     }
 
-    .container {
+    .heading {
         width: 100%;
         padding-left: 70px;
         padding-right: 25px;
     }
 
-    .container::before {
+    .heading::before {
         left: 60px;
         border: medium solid rgb(238, 217, 26);
         border-width: 10px 10px 10px 0;
